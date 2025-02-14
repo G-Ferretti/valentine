@@ -1,0 +1,17 @@
+.mycard{
+  z-index: 999;
+}
+
+.heart{
+  animation-name: beating;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes beating {
+  0% {transform: scale(90%);}
+  25% {transform: scale(100%);}
+  50% {transform: scale(110%);}
+  75% {transform: scale(120%);}
+  100% {transform: scale(100%);}
+}

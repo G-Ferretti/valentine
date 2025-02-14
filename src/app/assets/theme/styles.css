@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+body {
+  background-color: #fbb1bd; /* Matches surface.500 */
+  margin: 0;
+  padding: 0;
+}
