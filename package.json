@@ -21,6 +21,7 @@
     "@primeng/themes": "^19.0.6",
     "@tailwindcss/cli": "^4.0.6",
     "@tailwindcss/postcss": "^4.0.6",
+    "@tailwindcss/vite": "^4.0.6",
     "@tsparticles/angular": "^3.0.0",
     "@tsparticles/engine": "^3.8.1",
     "@tsparticles/shape-heart": "^3.8.1",

@@ -4,7 +4,6 @@ import {NgParticlesService, NgxParticlesModule} from '@tsparticles/angular';
 import { loadSlim } from "@tsparticles/slim";
 import {heartEmitter} from './assets/particles';
 import {Button} from 'primeng/button';
-import {NgClass} from '@angular/common';
 import {MovingButtonComponent} from './moving-button/moving-button.component';
 import {loadHeartShape} from '@tsparticles/shape-heart';
 
@@ -12,7 +11,7 @@ import {loadHeartShape} from '@tsparticles/shape-heart';
 
 @Component({
   selector: 'app-root',
-  imports: [CardModule, NgxParticlesModule, Button, MovingButtonComponent, NgClass],
+  imports: [CardModule, NgxParticlesModule, Button, MovingButtonComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   standalone: true

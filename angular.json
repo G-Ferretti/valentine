@@ -92,7 +92,7 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/app/assets/theme/styles.css"
             ],
             "scripts": []
           }
